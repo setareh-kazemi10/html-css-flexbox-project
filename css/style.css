@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.parent > .img{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 1s;
+
+}
+.parent > .img-1, .img-2{
+    position:absolute;
+    display: block;
+}
+.img>img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*-----------------------header------------------------*/
+header{
+    position: absolute;
+    width: 70%;
+    top: 20px;
+}
+header>nav>ul>li {
+    list-style-type: none;
+    display: inline-block;
+    margin:10px 10px;
+    position: relative;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+header>nav>ul>li>ul{
+    min-width: 300px;
+    display: none;
+    background-color: #bebbbb;
+}
+header>nav>ul>li>ul>li>a{
+    text-decoration: none;
+    color: #484747;
+}
+header>nav>ul>li>ul>li{
+    list-style-type: none;
+}
+header>nav>ul>li:hover>ul{
+    top: 100%;
+    left: 0;
+    min-width: 100px;
+    display: block;
+    position: absolute;
+}
+header>nav>ul>li:nth-child(5){
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+header>nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    position: relative;
+    width: 350px;
+}
+.logo>img{
+    position: absolute;
+    width: 100%;
+    top: -20px;
+}
+
+/*-----------------para1--------------------*/
+.para1{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+}
+.parent>.para1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.para1>.btn1,.btn2{
+    padding: 10px;
+    border-radius: 25px;
+    width:28%;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px 5px;
+}
+.para1>.btn1{
+    background: transparent;
+    border: 3px solid white;
+
+}
+.para1>.btn2{
+    background: #719430;
+    border: 3px solid transparent;
+    box-shadow: 1px 1px #2f2e2e;
+
+}
+.para1>h1,p{
+    color: white;
+    margin-bottom: 30px;
+
+}
+.para1>h1{
+   font-family: 'Shadows Into Light', cursive;
+    font-size:50px;
+}
+.para1>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*--------------------- Box --------------------*/
+.Box{
+    width: 25%;
+    height: 13px;
+}
+.Box-Box{
+    display: flex;
+}
+.Box-Box>.Box1{
+    background-color: #719430;
+}
+.Box-Box>.Box2{
+    background-color: #92bb46;
+}
+.Box-Box>.Box3{
+    background-color: #acd464;
+}
+.Box-Box>.Box4{
+    background-color: #e1fbb2;
+}
+/*----------------------------Para2--------------------------------*/
+.para2{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:100px;
+    margin: 20px;
+}
+.para2>h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+.para2>h2>span{
+    color: #359421;
+}
+.para2>p>span{
+    color: #359421;
+}
+.para2>p:nth-child(2){
+    margin-top: 35px;
+}
+.para2>p:nth-child(4){
+    color: #359421;
+    font-size: 20px;
+    margin-top: 45px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.para2>p{
+    color: #bebbbb;
+}
+/*--------------------------- bg-image2 --------------------*/
+.bg-image-2 {
+    position: relative;
+    width: 100%;
+}
+.bg-image-2>.caption{
+    position: absolute;
+    left: 10%;
+    margin-top: 17%;
+    color: white;
+}
+.bg-image-2>img{
+    position: absolute;
+    width: 100%;
+}
+.caption>h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+.caption>h6{
+    margin-top: 40px;
+}
+.caption>button{
+    border-radius: 25px;
+    height: 45px;
+    width: 150px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: white;
+    font-size: 14px;
+    margin-top: 150px;
+}
+/*-------------------------------slider3-----------------------------*/
+.slider3{
+    width: 100%;
+    height: auto;
+    background-color: #92bb46;
+}
+.Box2>.box{
+    width: 300px;
+    height: 120px;
+    background-color: #719430;
+}
+.Box2>h2{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+    left: 40%;
+    top: 40px;
+}
+.Box2{
+display: flex;
+justify-content: space-between;
+}
+
+/*------------------------- image3 ----------------------*/
+.img3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wedding{
+    width: 32%;
+    height: 30%;
+    position: relative;
+    top: 12px;
+    overflow: hidden;
+}
+.wedding>h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    font-family: sans-serif;
+    transition: 600ms;
+}
+
+.wedding>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 400ms;
+}
+.wedding::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.32);
+    transition: 300ms;
+    opacity: 0;
+}
+.wedding:hover::after{
+    opacity: 1;
+}
+.wedding:hover>img{
+    transform: scale(1.1,1.1);
+}
+.slider3>.box4{
+    width: 100%;
+    height: 60%;
+    padding: 50px;
+    background-color: #bebbbb;
+    border: 10px solid #92bb46;
+}
+.box4{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border: 15px solid #92bb46;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:30px;
+}
+.box4>h6{
+    font-size: 12px;
+    color: #9b9898;
+}
+.bg-image4{
+position: relative;
+height: 650px;
+
+}
+.bg-image4>img{
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+.circle>.fa{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border: 0.5px solid #a1a2af;;
+    border-radius: 50%;
+    position: relative;
+}
+.para4>h3{
+    font-weight: 400;
+    color: black;
+}
+.para4>p{
+    color: #a1a2af;
+}
+/*-------------------------- image5 --------------------------*/
+.img-5{
+   width: 100%;
+    height: auto;
+    position: relative;
+}
+.img-5>img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.box5{
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+.box5>h2{
+    color: #222222;
+    margin-bottom: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.box5>p{
+    color: #a1a2af;
+}
+.box5>h2>span{
+    color: #359421;
+}
+
+/*---------------------------- image6 -----------------------------*/
+.bg-image-6{
+    width: 100%;
+    height:450px;
+    background: url("../images/cheese.jpg") no-repeat center center/ cover fixed;
+
+}
+.Divider{
+    width: 100%;
+    height: 450px;
+    background: rgba(0,0,0,0.8);
+}
+.para3{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.para3>h2{
+    padding-bottom: 40px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.para3>button {
+    border-radius: 25px;
+    height: 45px;
+    width: 150px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #e0e3be;
+    font-size: 14px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+}
+
+/*------------------- footer -------------------*/
+.footer{
+    width: 100%;
+    height: 330px;
+    background-color: #658529;
+    position: relative;
+   }
+.f1{
+    color: #e0e3be;
+    position: relative;
+    padding-top: 100px;
+}
+.f1>p{
+margin-top: 20px;
+}
+.f1>h2{
+    margin-top: -30px;
+}
+.footer>.container{
+    display: flex;
+}
+.footer2{
+    width: 100%;
+    height:50px;
+    background-color: #425719;
+}
+.col-lg-6>span,a{
+   color: #e0e3be;
+    font-size: 12px;
+    position: relative;
+    top: 50%;
+}
+ul{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+ul li{
+    display: inline-block;
+    margin: 0 5px;
+    list-style-type: none;
+}
+ul li a{
+    color: #e0e3be;
+    font-size: 12px;
+}
+ul li a:hover{
+    color: #e0e3be;
+    text-decoration: none;
+}
