@@ -12,7 +12,7 @@ This project was created to practice front-end development by implementing a lan
 
 ## Home Page
 
-![Home Page](./screenshots/home.png)
+![Home Page](./images/screenshots/home.png)
 
 ## About Page
 
