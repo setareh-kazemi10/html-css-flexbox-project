@@ -15,13 +15,12 @@ This project was created to practice front-end development by implementing a lan
 
 ## About Page
 
-![About Page](images/screenshot/blog.png)
+![blog Page](images/screenshot/blog.png)
 
 ## Contact Page
 
-![Contact Page](images/screenshot/services.png)
+![services Page](images/screenshot/services.png)
 
->>>>>>> 4367e6ba59a6fc9da6e12098efe2897ace3f67b1
 ## 🛠️ Built With
 
 * HTML5
