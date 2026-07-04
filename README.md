@@ -6,6 +6,20 @@ A front-end practice project built with **HTML** and **CSS**, using **Flexbox** 
 
 This project was created to practice front-end development by implementing a landing page inspired by the design of the **Kriesi** website. The layout and code were written from scratch using only HTML and CSS.
 
+# 📸 Screenshots
+
+## Home Page
+
+![Home Page](./screenshots/home.png)
+
+## About Page
+
+![About Page](./screenshots/about.png)
+
+## Contact Page
+
+![Contact Page](./screenshots/contact.png)
+
 ## 🛠️ Built With
 
 * HTML5
