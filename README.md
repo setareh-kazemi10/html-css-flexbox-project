@@ -13,11 +13,11 @@ This project was created to practice front-end development by implementing a lan
 
 ![Home Page](images/screenshot/home.png)
 
-## About Page
+## Blog Page
 
 ![blog Page](images/screenshot/blog.png)
 
-## Contact Page
+## Services Page
 
 ![services Page](images/screenshot/services.png)
 
@@ -48,7 +48,7 @@ This project is for educational and practice purposes only. The UI design was in
 
 ## 🚀 Live Demo
 
-[Add your live demo link here.](https://html-css-flex-project.netlify.app/)
+https://html-css-flex-project.netlify.app/
 
 
 Created with ❤️ by Setareh Kazemi
